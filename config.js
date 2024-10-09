@@ -1,4 +1,4 @@
-const fs = require('fs');
+sachiconst fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
 function convertToBool(text, fault = 'true') {
